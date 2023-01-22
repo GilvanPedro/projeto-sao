@@ -1,0 +1,75 @@
+body {
+    font-family: 'Poppins';
+    background-color: rgb(17, 16, 16);
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgb(17, 20, 20);
+}
+
+.cabecalho .logo {
+    width: 65px;
+}
+
+.cabecalho .menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.cabecalho nav li a {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+
+.cabecalho nav li a:hover {
+    background-color: #283aff;
+}
+p {
+    text-align: center;
+}
+
+.titulo {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(219, 219, 219);
+}
+
+.texto {
+    font-size: 20px;
+    font-weight: normal;
+    text-indent: 1.5em;
+    padding: 5px 40px;
+    color: rgb(219, 219, 219);
+}
+
+.imagemDetalhes {
+    max-width: 700px;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    padding: 25px;
+}
+
+.subtitulo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 40px;
+    color: rgb(219, 219, 219);
+}
+
+.stafInfo {
+    font-size: 20px;
+    font-weight: normal;
+    padding: 0px 40px;
+    color: rgb(219, 219, 219);
+}
